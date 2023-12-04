@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Vina+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body style="background-color: whitesmoke;" class="p-1">
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom ">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><span class="brand_font" style="color: #000000;">Krishna</span><span
+            style="color: #fff;"> watch's</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#!">home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#!">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!">offers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav d-flex flex-row">
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="login.html">
+                <button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-box-arrow-in-right"></i>
+                  Login</button>
+              </a>
+            </li>
+
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="register.html">
+                <button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-person"></i> Register</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!--Section: Design Block-->
+    <section>
+      <!-- Intro -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./pexels-pixabay-280250.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./pexels-anthony-derosa-236915.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./pexels-antony-trivet-9979734.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </header>
+
+
+
+  <!--after courosel-->
+
+  <div class="container">
+
+    <h2 class="brand_font mt-4 text-center">POPULAR BRANDS</h2>
+
+    <table class="table table-stripped mt-4  mb-5">
+      <thead class="table-dark">
+        <tr>
+          <th scope="col">TOP</th>
+          <th scope="col">Brands</th>
+          <th scope="col">Current Growth</th>
+
+        </tr>
+      </thead>
+      <tbody class="table-group-divider">
+        <tr>
+          <th scope="row">#1</th>
+          <td>Rolex</td>
+          <td>Consistently high demand and growth due to brand reputation and limited supply strategies.</td>
+
+        </tr>
+        <tr>
+          <th scope="row">#2</th>
+          <td>Omega</td>
+          <td>Steady growth with new innovations and collaborations.</td>
+
+        </tr>
+        <tr>
+          <th scope="row">#3</th>
+          <td>Patek Philippe</td>
+          <td>Continues to maintain exclusivity, contributing to steady growth.</td>
+
+        </tr>
+        <tr>
+          <th scope="row">#4</th>
+          <td>Audemars Piguet</td>
+          <td>Growing demand for limited edition models.</td>
+
+        </tr>
+        <tr>
+          <th scope="row">#5</th>
+          <td>Casio</td>
+          <td>Steady growth due to diverse product lines including G-Shock and smartwatches.</td>
+
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!--explore store-->
+  <section style="background-image: url(pexels-pixabay-280250.jpg);" class="py-4">
+    <div class="container">
+      <h2 class="brand_font text-center mb-4">Explore Store</h2>
+
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+
+        <div class="col-md-4">
+          <div class="card" style="height: 23rem;">
+            <img src="./watch_rolex.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rolex</h5>
+
+              <a href="#" class="btn btn-dark">Explore <i class="bi bi-caret-right-fill"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="height: 23rem;">
+            <img src="./watch_omega.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Omega</h5>
+
+              <a href="#" class="btn btn-dark">Explore <i class="bi bi-caret-right-fill"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="height: 23rem;">
+            <img src="./TAG_Heuer-removebg-preview.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">TAG Heuer</h5>
+              <a href="#" class="btn btn-dark">Explore <i class="bi bi-caret-right-fill"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="height: 23rem;">
+            <img src="./piguet.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Audemars Piguet</h5>
+              <a href="#" class="btn btn-dark">Explore <i class="bi bi-caret-right-fill"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="height: 23rem;">
+            <img src="./patek philippe.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Patek Philippe</h5>
+              <a href="#" class="btn btn-dark">Explore <i class="bi bi-caret-right-fill"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="height: 23rem;">
+            <img src="./casio.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Casio</h5>
+              <a href="#" class="btn btn-dark">Explore <i class="bi bi-caret-right-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--accordian-->
+
+  <div class="container">
+    <div class=" my-4">
+
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button bg-dark text-white" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne">
+              #1 Best Selling Watch
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+            aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              <strong>Timex : </strong> Timex is a renowned American watch brand known for its durability,
+              affordability,
+              and classic designs. Established in the 1850s, it has a rich heritage in watchmaking. Timex gained
+              popularity with its iconic and accessible timepieces, especially the Timex Ironman series, a favorite
+              among athletes for its sports-focused features like stopwatch, alarms, and water resistance.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed text-white bg-dark" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo">
+              #2 Best Selling Watch
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              <strong>Sonata : </strong> The Sonata brand is an Indian watch manufacturer known for its wide range of
+              affordable and stylish timepieces. Established in 1986, it has become one of the largest-selling watch
+              brands in India. Sonata watches cater to various segments, offering a diverse collection encompassing
+              analog, digital, and hybrid watches for men, women, and kids.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree">
+              #3 Best Selling Watch
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              <strong>G-Shock : </strong> G-Shock watches are a line of tough, durable timepieces produced by Casio.
+              Launched in 1983, they were designed to withstand shock, vibration, and extreme conditions. They're known
+              for their robust construction, including shock-resistant materials, protective features like reinforced
+              cases, and water resistance. G-Shock watches often incorporate various functionalities like countdown
+              timers, stopwatch features, alarms, and world time displays.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--image ad-->
+
+  <div class="text-center">
+
+    <img style="background-position: center; background-repeat: no-repeat; background-size: cover;"
+      src="./oie_pN13miJbUSWi.jpg" alt="" srcset="">
+  </div>
+  <!-- go to store-->
+  <div class="container">
+    <div class="buying my-4">
+      <div class="card text-center">
+        <div class="card-header">
+          buy your dreams
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Check Our Store</h5>
+          <p class="card-text">exciting offers are waiting for you, don't waste a time</p>
+          <a href="#" class="btn btn-dark">Explore Krishna's Store</a>
+        </div>
+        <div class="card-footer text-muted">
+          recently updated...
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--footer-->
+  <div class="container">
+    <div class="container mt-4 bg-dark">
+
+      <footer class="text-center text-lg-start  mt-xl-5 pt-4">
+        
+        <div class="container p-4">
+          
+          <div class="row">
+            
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <h5 class="text-uppercase mb-4 footer_text_color brand_font">service</h5>
+
+              <ul class="list-unstyled mb-4">
+                <li>
+                  <a href="#!" class="text-white font2">payment options</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white font2">order tracking</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white font2">Encircle Program</a>
+                </li>
+                
+              </ul>
+            </div>
+            
+            
+            
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <h5 class="text-uppercase mb-4 footer_text_color brand_font">policies</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" class="text-white font2">Returns & Exchanges</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white font2">Cancellation</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white font2">Shipping</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white font2">Delivery Information</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white font2">Brand Protection</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <h5 class="text-uppercase mb-4 footer_text_color brand_font">contact us</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" class="text-white font2">1800-266-0123</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white font2">krishnawatches2024@gmail.com</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white font2">FAQ</a>
+                </li>
+                
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              
+              <ul class="list-unstyled d-flex flex-row justify-content-around">
+                <li>
+                  <a href="#!" class="text-white"><i class="bi bi-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white"><i class="bi bi-youtube"></i></a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white"><i class="bi bi-whatsapp"></i></a>
+                </li>
+              </ul>
+
+            </div>
+            
+          </div>
+          
+        </div>
+        
+        <div class="text-center p-3 border-top border-white footer_text_color">
+          © 2024 Copyright:
+          <a class="text-white" href="#">krishnawatches.com</a>
+        </div>
+        
+      </footer>
+
+    </div>
+  </div>
+</body>
+
+</html>
